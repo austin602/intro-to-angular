@@ -1,0 +1,5 @@
+#ignore the node dependencies folder .
+node_modules/
+
+#ignore the bower browser side dependencies folder.
+public/lib/
