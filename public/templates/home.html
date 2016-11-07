@@ -1,0 +1,14 @@
+<h2> {{ title }}</h2>
+<p> this is the home page</p>
+
+    <!-- bind the scope's "title" variable as the  -->
+    <!-- data model of this input tag -->
+    <input ng-model="title">
+    <!-- have an angular event fire off and call
+a controller's method. -->
+    <button ng-click='testMethod ()'>Test Button</button>
+    <!-- go through the list items and display
+    them on page. -->
+    <ul>
+        <li ng-repeat="item in list">{{item}}</li>
+    </ul>
